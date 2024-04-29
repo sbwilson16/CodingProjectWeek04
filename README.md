@@ -48,7 +48,7 @@ public class CodingProjectWeek04 {
 		averageLetters += length.length(); // however since it is a string i put a .length.
 	}
 	    int averageLetter = averageLetters / names.length; 
-	    System.out.println(averageLetters);
+	    System.out.println(averageLetter);
 	
 //b. Use a loop to iterate through the array again and concatenate all the names together, separated by spaces, and print the result to the console.
 //
@@ -77,9 +77,8 @@ for (int i = 0; i < names.length; i++) {
          int count = 0; 
 	 for(int i = 0; i < names.length; i++)
 	 {
-		 if(names.length != ' ')
-			 count++;
-	 }
+		 count += names.length; 
+	 } System.out.println(count);
        
 
 	} // end of main *********
@@ -187,5 +186,12 @@ for (int i = 0; i < names.length; i++) {
 }
 
 }
+
+
+
+
+
+
+
 
 
