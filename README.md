@@ -145,7 +145,7 @@ for (int i = 0; i < names.length; i++) {
 	     	    		  averg += numberOfList;
 	     	    	  } double avg2 = (averg / numberList.length);
 	        		
-	        		 if (avg >= avg2) { // i wrote an if statement so that i can do a return for true and false.
+	        		 if (avg > avg2) { // i wrote an if statement so that i can do a return for true and false.
 	        			 return true; 
 	        		 }
 					return false;
